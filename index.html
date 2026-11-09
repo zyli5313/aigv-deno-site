@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wedding Toast Video Checklist</title>
+<meta name="description" content="Checklist for a short wedding greeting or toast video with AI greeting tools.">
+<meta name="robots" content="index,follow">
+<style>
+body{font-family:system-ui,sans-serif;max-width:700px;margin:2rem auto;padding:0 1rem;line-height:1.5}
+h1{font-size:1.55rem} .ok{accent-color:#059669}
+.box{border:1px solid #e5e7eb;border-radius:8px;padding:1rem;margin:1rem 0}
+button{padding:.5rem 1rem;border-radius:6px;border:1px solid #111;background:#111;color:#fff;cursor:pointer}
+footer{margin-top:2rem;color:#555;font-size:.9rem}
+</style>
+</head>
+<body>
+<h1>Wedding Toast Video Checklist</h1>
+<p>Keep the toast under 45 seconds. Build it with <a href="https://aigreetingvideo.com/">AI Greeting Video</a>.</p>
+<div class="box">
+<h2>Story checklist</h2>
+<label><input class="ok" type="checkbox"> Names of the couple spelled correctly</label><br>
+<label><input class="ok" type="checkbox"> One shared memory (not a roast that needs context)</label><br>
+<label><input class="ok" type="checkbox"> One sincere wish for their marriage</label><br>
+<label><input class="ok" type="checkbox"> Closing toast line ready</label><br>
+<button type="button" id="score">Score checklist</button>
+<p id="out"></p>
+</div>
+<div class="box">
+<h2>Produce</h2>
+<ul>
+<li>Occasion: <a href="https://aigreetingvideo.com/wedding-video-card">wedding video card</a></li>
+<li>Wish cut: <a href="https://aigreetingvideo.com/tools/ai-wish-video-generator">AI wish video generator</a></li>
+<li>Matching still: <a href="https://aigreetingvideo.com/tools/ai-greeting-card-generator">AI greeting card generator</a></li>
+<li>More: <a href="https://aigreetingvideo.com/tools">tools</a> · <a href="https://aigreetingvideo.com/pricing">pricing</a> · <a href="https://aigreetingvideo.com/">home</a></li>
+</ul>
+</div>
+<footer>Unofficial checklist for aigreetingvideo.com.</footer>
+<script>
+document.getElementById('score').onclick=function(){
+  var n=document.querySelectorAll('input.ok:checked').length;
+  document.getElementById('out').textContent=n+' of 4 ready';
+};
+</script>
+</body>
+</html>
